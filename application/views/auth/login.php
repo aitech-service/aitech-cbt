@@ -1,7 +1,7 @@
 <div class="container pt-4">
     <div class="info-box bg-transparent shadow-none">
         <?php
-        $logo_app = $setting->logo_kanan == null ? base_url() . 'assets/img/favicon.png' : base_url() . $setting->logo_kanan;
+        $logo_app = $setting->logo_kanan == null ? base_url() . 'assets/img/favicon.png' : base_url() . $setting->logo_kiri;
         ?>
         <img src="<?= $logo_app ?>" width="60" height="60">
         <div class="info-box-content ml-2" style="text-shadow: 1px 1px 2px #000000">
